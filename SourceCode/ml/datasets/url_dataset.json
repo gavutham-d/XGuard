@@ -1,0 +1,4364 @@
+[
+  {
+    "url": "https://pypi.org/project/scikit-learn/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://google.appleid-resolve-locked.cc/billing/update-credit-card?id=3697",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://support.ietf.org/support/faq?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.docker.com/about-us?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://figma.com/security/disclosure?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.notion.so/guide/installation?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.apache.org/downloads/client-mac?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.chase.com/personal/checking",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://support.mozilla.org/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.amd.com/security/disclosure?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.figma.com/products/overview?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://www.oracle.com/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.google.com/search?q=cybersecurity+best+practices",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.cisa.gov/resources-tools/resources/phishing-guidance",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.nodejs.org/about-us?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.cisco.com/api/reference?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.hubspot.com/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://google.wallet-security-recovery.biz/recover/reset-password?id=9897",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://docs.docker.com/press/releases/2026",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.ubuntu.com/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.ietf.org/guide/installation",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "http://apache.org/contact?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.python.org/about-us?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ibm.com/terms-of-service?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.ubuntu.com/contact",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://chase.netflix-card-declined.site/security/unlock-account.php?id=9261",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://support.stripe.com/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://api.rust-lang.org/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.debian.org/products/overview",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://netflix.appleid-resolve-locked.cc/login/checkpoint.aspx?id=8632",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.hubspot.com/status/uptime?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.stripe.com/products/overview?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.figma.com/support/faq?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.debian.org/security/disclosure",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.ibm.com/status/uptime?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.amd.com/support/faq",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://docs.canva.com/careers/openings?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.adobe.com/security/disclosure?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.mozilla.org/blog/post-102?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://docs.oracle.com/contact?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.adobe.com/contact?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.intel.com/products/overview?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://apple.secure-banking-verification.net/security/unlock-account.php?id=2337",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://xn--gogle-pqa.com/service-login/challenge",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.nodejs.org/downloads/client-mac",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.mozilla.org/about-us?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.linear.app/security/disclosure?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.golang.org/about-us?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://redhat.com/blog/post-102?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.nodejs.org/community/forum?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://ubuntu.com/about-us?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ubuntu.com/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://shopify.com/support/faq",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.amd.com/guide/installation?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.kubernetes.io/status/uptime?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://paypal.identity-protection-check.info/login/checkpoint.aspx?id=3449",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://secure.identity-protection-check.info/downloads/wellsfargo_security_update.vbs",
+    "label": 1,
+    "category": "malware",
+    "split": "test"
+  },
+  {
+    "url": "https://cs.stanford.edu/people/faculty",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.cisco.com/products/overview",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://support.oracle.com/careers/openings?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.nvidia.com/guide/installation?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://binance-security.verify-kyc-wallet.vip/en/login",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://support.atlassian.com/products/overview?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://support.ibm.com/security/disclosure",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.python.org/security/disclosure?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.cisco.com/contact?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.zoom.us/contact?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.hubspot.com/legal/privacy-policy",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://ubuntu.com/guide/installation?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://api.docker.com/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://github.com/fastapi/fastapi/releases",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.redhat.com/contact?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.oracle.com/blog/post-102?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://api.rust-lang.org/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://secure.appleid-resolve-locked.cc/microsoft/webscr/cmd-login?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "http://secure.login-security-gateway.top/wellsfargo/signin/index.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "http://google.login-security-gateway.top/kyc/upload-id-document?id=9047",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "http://portal.paypal-resolution-center.vip/downloads/paypal_security_update.exe",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "http://support.oracle.com/pricing/enterprise",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.canonical.com/contact?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://ibm.com/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.golang.org/status/uptime?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.stripe.com/press/releases/2026?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.rust-lang.org/legal/privacy-policy",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://netflix.amazon-delivery-hold.link/security/unlock-account.php?id=3610",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.apache.org/about-us?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://signin.urgent-notice-action.xyz/paypal/login/checkpoint.aspx?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://api.golang.org/api/reference?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ietf.org/blog/post-102?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://support.linear.app/careers/openings?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.science.org/journal/science",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://paypal.identity-protection-check.info/signin/index.php?id=8740",
+    "label": 1,
+    "category": "phishing",
+    "split": "test"
+  },
+  {
+    "url": "https://apple.identity-protection-check.info/webscr/cmd-login?id=1782",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://secure.wallet-security-recovery.biz/downloads/paypal_security_update.vbs",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://figma.com/careers/openings?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://stackoverflow.com/questions/50711900/fastapi-async-routes",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.linear.app/support/faq?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://login.netflix-card-declined.site/downloads/paypal_security_update.vbs",
+    "label": 1,
+    "category": "malware",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.apache.org/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.amazon.com/dp/B08N5WRWNW",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docker.com/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.rust-lang.org/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.rust-lang.org/api/reference?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.cisco.com/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.mozilla.org/pricing/enterprise",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://bankofamerica.online-id-verification.shop/sign-in.do",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://api.oracle.com/guide/installation",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.amazon-delivery-hold.link/microsoft/kyc/upload-id-document?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.mozilla.org/security/disclosure?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://api.canonical.com/security/disclosure",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://support.shopify.com/press/releases/2026?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.salesforce.com/community/forum?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://docs.adobe.com/support/faq?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.kubernetes.io/about-us?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://shopify.com/guide/installation",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://dropbox-shared-document.view-invoice.work/download.php?doc=91",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "https://figma.com/community/forum?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.canva.com/terms-of-service?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ubuntu.com/downloads/client-mac",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.kubernetes.io/contact?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://secure.secure-banking-verification.net/chase/recover/reset-password?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://support.notion.so/legal/privacy-policy",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.oracle.com/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.paypal.com/signin",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.hubspot.com/press/releases/2026",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://apple.amazon-delivery-hold.link/webscr/cmd-login?id=5754",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://www.ietf.org/status/uptime?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://api.ibm.com/products/overview",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://zoom.us/pricing",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.nationalgeographic.com/environment",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.cisco.com/terms-of-service?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://python.org/community/forum?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.python.org/support/faq",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://login.billing-portal-direct.club/paypal/security/unlock-account.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://www.ox.ac.uk/admissions/graduate",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://adobe.com/docs/v2/getting-started",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.atlassian.com/api/reference?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://salesforce.com/support/faq",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://rust-lang.org/terms-of-service?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://golang.org/contact?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.khanacademy.org/computing/computer-science",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://atlassian.com/security/disclosure?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://verify.paypal-resolution-center.vip/google/signin/index.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "http://accounts.google.com.sign-in-portal-recovery.info/ServiceLogin",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://zoom-meeting-installer.media-share.party/Zoom_Update_Patch.vbs",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.intel.com/careers/openings?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.nvidia.com/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://www.oracle.com/api/reference?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://suspicious-crypto-giveaway-elon.xyz/claim-free-eth-airdrop.html",
+    "label": 1,
+    "category": "scam",
+    "split": "val"
+  },
+  {
+    "url": "http://api.canonical.com/api/reference",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://api.hubspot.com/terms-of-service?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://whatsapp-gold-edition.mobile-updates.site/whatsapp_gold.apk",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://support.stripe.com/legal/privacy-policy?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.adobe.com/community/forum?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.atlassian.com/legal/privacy-policy?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.spotify.com/us/premium/",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.google.com/document/d/1aB2cD3e/edit",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.canonical.com/support/faq?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://redhat.com/products/overview?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.login-security-gateway.top/paypal/login/checkpoint.aspx?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ibm.com/blog/post-102?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://account.account-update-notice.com/google/kyc/upload-id-document?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "http://chase.amazon-delivery-hold.link/recover/reset-password?id=3007",
+    "label": 1,
+    "category": "phishing",
+    "split": "test"
+  },
+  {
+    "url": "https://help.netflix.com/en/node/412",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://chase.customer-support-session.org/signin/index.php?id=7825",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.notion.so/community/forum?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://atlassian.com/press/releases/2026?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.bankofamerica.com/smallbusiness/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.ubuntu.com/security/disclosure?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.atlassian.com/guide/installation?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://api.zoom.us/legal/privacy-policy?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.account-update-notice.com/microsoft/security/unlock-account.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.salesforce.com/blog/post-102?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://linked1n-jobs.com/network/messages/view",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.figma.com/pricing/enterprise?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.stripe.com/contact?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://chasee-bank.com/secure/login/auth",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "https://api.docker.com/community/forum?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.netflix-card-declined.site/downloads/paypal_security_update.vbs",
+    "label": 1,
+    "category": "malware",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://api.figma.com/contact",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://mozilla.org/guide/installation",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.rust-lang.org/downloads/client-mac",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.shopify.com/downloads/client-mac?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.ibm.com/contact",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.rust-lang.org/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.canva.com/community/forum?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.canva.com/legal/privacy-policy?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.apache.org/security/disclosure",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.salesforce.com/api/reference?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://www.nvidia.com/support/faq?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.booking.com/city/gb/london.html",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.rust-lang.org/contact?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.theverge.com/tech",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.rust-lang.org/security/disclosure?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://www.shopify.com/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.cisco.com/status/uptime?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://google.login-security-gateway.top/webscr/cmd-login?id=6150",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://support.figma.com/terms-of-service?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://app1e-id-support.com/find-my-iphone/locked",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "https://paypal-security-update.account-protection.xyz/signin/index.html",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://api.amd.com/status/uptime?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://azure.microsoft.com/en-us/products/virtual-machines",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.zoom.us/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.golang.org/products/overview?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.linkedin.com/feed/",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.salesforce.com/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://198.54.117.200/netflix/billing/update.html",
+    "label": 1,
+    "category": "ip_host",
+    "split": "train"
+  },
+  {
+    "url": "http://api.ubuntu.com/products/overview?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://amaz0n-prime.com/account/billing/fix-card",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "https://www.python.org/status/uptime?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://api.cisco.com/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://adobe-document-cloud.sign-contracts.live/review/doc.pdf.exe",
+    "label": 1,
+    "category": "malware",
+    "split": "test"
+  },
+  {
+    "url": "http://account.appleid-resolve-locked.cc/wellsfargo/auth/verify-identity.html?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://debian.org/blog/post-102?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://support.debian.org/contact?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "http://figma.com/guide/installation?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.bbc.com/news/technology",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.canonical.com/products/overview?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.atlassian.com/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.netflix-card-declined.site/downloads/chase_security_update.exe",
+    "label": 1,
+    "category": "malware",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://support.kubernetes.io/api/reference?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://drive.google.com/drive/my-drive",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.mozilla.org/downloads/client-mac?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docker.com/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.redhat.com/pricing/enterprise?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.debian.org/press/releases/2026?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://api.figma.com/legal/privacy-policy?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.zoom.us/api/reference?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.shopify.com/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.zoom.us/downloads/client-mac?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://shopify.com/community/forum?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.debian.org/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.twitch.tv/directory",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.stripe.com/security/disclosure?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://verify.wallet-security-recovery.biz/downloads/microsoft_security_update.vbs",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "http://secure.urgent-notice-action.xyz/downloads/google_security_update.exe",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.figma.com/blog/post-102?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.docker.com/api/reference?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://discord.com/channels/@me",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://nvidia.com/products/overview?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://support.atlassian.com/blog/post-102",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.golang.org/terms-of-service?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://paypal.login-security-gateway.top/billing/update-credit-card?id=4048",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://verify.customer-support-session.org/wellsfargo/kyc/upload-id-document?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://api.canva.com/downloads/client-mac?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://berkeley.edu/academics",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.nvidia.com/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://krebsonsecurity.com/about/",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/windows",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://wel1sfargo.com/identity/security-questions",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "http://secure.account-update-notice.com/netflix/login/checkpoint.aspx?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://support.shopify.com/api/reference?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.shopify.com/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://ubuntu.com/press/releases/2026?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.amd.com/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.adobe.com/about-us?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://paypal.customer-support-session.org/recover/reset-password?id=8702",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://signin.account-update-notice.com/wellsfargo/webscr/cmd-login?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "test"
+  },
+  {
+    "url": "https://support.redhat.com/guide/installation?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.python.org/contact?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://bitbucket.org/product",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://google.netflix-card-declined.site/auth/verify-identity.html?id=1828",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://api.redhat.com/community/forum?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://edition.cnn.com/business",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ubuntu.com/legal/privacy-policy?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.harvard.edu/programs/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://secure.urgent-notice-action.xyz/wellsfargo/billing/update-credit-card?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "test"
+  },
+  {
+    "url": "http://secure.paypal-resolution-center.vip/downloads/google_security_update.scr",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.00001",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://oracle.com/security/disclosure",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.stripe.com/guide/installation?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://api.python.org/legal/privacy-policy?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://194.26.29.112:8080/secure/bankofamerica/login.htm",
+    "label": 1,
+    "category": "ip_host",
+    "split": "val"
+  },
+  {
+    "url": "https://intel.com/terms-of-service?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.docker.com/terms-of-service?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.billing-portal-direct.club/netflix/recover/reset-password?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://secure.account-update-notice.com/wellsfargo/auth/verify-identity.html?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://support.nodejs.org/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://support.python.org/downloads/client-mac?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.linear.app/press/releases/2026?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.canva.com/guide/installation?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://microsoft.billing-portal-direct.club/webscr/cmd-login?id=6776",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://appleid.apple.com.manage-verify.org/auth/security_check.php",
+    "label": 1,
+    "category": "phishing",
+    "split": "test"
+  },
+  {
+    "url": "https://support.notion.so/products/overview",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.cisco.com/about-us?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docker.com/support/faq?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.stripe.com/api/reference?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.kubernetes.io/support/faq?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://secure.secure-banking-verification.net/wellsfargo/signin/index.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://www.rust-lang.org/support/faq?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.kubernetes.io/legal/privacy-policy?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.amd.com/api/reference?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.nodejs.org/press/releases/2026?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.zoom.us/products/overview?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.docker.com/guide/installation?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.kubernetes.io/guide/installation",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.python.org/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.cisco.com/press/releases/2026",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.hubspot.com/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.amd.com/community/forum?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://stripe.com/about-us?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://steam-wallet-hack-tool.free-games.xyz/wallet_generator.exe",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://support.rust-lang.org/products/overview?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://login.secure-banking-verification.net/netflix/auth/verify-identity.html?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.salesforce.com/status/uptime?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.amd.com/pricing/enterprise?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://mozilla.org/community/forum?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://signin.identity-protection-check.info/wellsfargo/billing/update-credit-card?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "test"
+  },
+  {
+    "url": "https://support.shopify.com/contact",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.redhat.com/press/releases/2026?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.adobe.com/guide/installation?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://oracle.com/terms-of-service?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://support.notion.so/support/faq?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://xn--mcrosoft-e1a.com/office365/auth",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://support.oracle.com/legal/privacy-policy?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://api.ietf.org/contact",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.figma.com/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://support.salesforce.com/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.ietf.org/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://shopify.com/blog/post-102?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://api.ietf.org/api/reference?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://support.python.org/pricing/enterprise?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.docker.com/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.adobe.com/status/uptime?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.nvidia.com/blog/post-102?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.intel.com/downloads/client-mac?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Transport_Layer_Security",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.atlassian.com/support/faq?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.nytimes.com/section/technology",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://wellsfargo.urgent-notice-action.xyz/signin/index.php?id=3828",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.golang.org/legal/privacy-policy",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://google.login-security-gateway.top/security/unlock-account.php?id=5264",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "http://system-speedup-utility.download-hub.cc/driver_update.scr",
+    "label": 1,
+    "category": "malware",
+    "split": "test"
+  },
+  {
+    "url": "https://microsoft-online-365.session-recovery-auth.top/login.srf?id=92",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "https://huggingface.co/models",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ubuntu.com/community/forum?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://docs.atlassian.com/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://aws.amazon.com/s3/pricing/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.mozilla.org/press/releases/2026?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://amd.com/legal/privacy-policy?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://faceb00k-security-notice.com/checkpoint/login",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.identity-protection-check.info/downloads/apple_security_update.bat",
+    "label": 1,
+    "category": "malware",
+    "split": "test"
+  },
+  {
+    "url": "http://docs.rust-lang.org/community/forum",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://stripe.com/terms-of-service?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://account.secure-banking-verification.net/downloads/paypal_security_update.scr",
+    "label": 1,
+    "category": "malware",
+    "split": "test"
+  },
+  {
+    "url": "https://shopify.com/terms-of-service?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://signin.wallet-security-recovery.biz/downloads/microsoft_security_update.vbs",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://support.nvidia.com/community/forum?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.nodejs.org/terms-of-service?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.adobe.com/press/releases/2026?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.intel.com/pricing/enterprise?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.zoom.us/status/uptime?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.amd.com/products/overview?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://amazon-prime-delivery.claim-refund-voucher.icu/order-status",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://canonical.com/legal/privacy-policy?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.canonical.com/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://portal.paypal-resolution-center.vip/downloads/netflix_security_update.bat",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "http://nodejs.org/support/faq?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://python.org/api/reference?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://api.adobe.com/careers/openings?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.dropbox.com/plans",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.rust-lang.org/guide/installation?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.intel.com/community/forum?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.nodejs.org/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.canonical.com/downloads/client-mac?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.redhat.com/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://ibm.com/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.debian.org/support/faq?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.mozilla.org/careers/openings?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.hubspot.com/about-us?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.redhat.com/docs/v2/getting-started",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.linear.app/api/reference",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://nodejs.org/pricing/enterprise",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.intel.com/contact?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.intel.com/support/faq?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://www.nvidia.com/docs/v2/getting-started?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://signin.customer-support-session.org/paypal/auth/verify-identity.html?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://www.redhat.com/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://amd.com/terms-of-service?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.notion.so/pricing/enterprise?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docker.com/security/disclosure?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ietf.org/about-us?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.edx.org/school/harvardx",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://stripe.com/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.amd.com/contact?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.salesforce.com/legal/privacy-policy",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.wellsfargo.com/help/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.nodejs.org/guide/installation",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.cloudflare.com/learning/security/what-is-zero-trust/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://paypal.billing-portal-direct.club/login/checkpoint.aspx?id=5843",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://chase.customer-support-session.org/webscr/cmd-login?id=1266",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.linear.app/downloads/client-mac?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.ibm.com/support/faq?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.amd.com/careers/openings?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Phishing",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.canonical.com/terms-of-service?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "http://microsoft.billing-portal-direct.club/auth/verify-identity.html?id=3956",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://www.nodejs.org/products/overview?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.kubernetes.io/pricing/enterprise?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://mail.google.com/mail/u/0/#inbox",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.atlassian.com/terms-of-service",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://www.intel.com/press/releases/2026?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.netflix.com/browse",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.debian.org/legal/privacy-policy?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "http://103.151.125.10/apple/login.php?id=99",
+    "label": 1,
+    "category": "ip_host",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.urgent-notice-action.xyz/chase/security/unlock-account.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://www.nvidia.com/press/releases/2026",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://api.hubspot.com/community/forum",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.reddit.com/r/netsec/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://rust-lang.org/press/releases/2026?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://account.wallet-security-recovery.biz/downloads/chase_security_update.vbs",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "http://support.mozilla.org/contact?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://www.paypa1.com/cgi-bin/webscr?cmd=_login-run",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "https://medium.com/topic/cybersecurity",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.mozilla.org/api/reference",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=3849102",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.golang.org/support/faq?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.nodejs.org/blog/post-102",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.zoom.us/support/faq?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://google.amazon-delivery-hold.link/auth/verify-identity.html?id=6231",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://docs.cisco.com/careers/openings?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.debian.org/terms-of-service?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docker.com/legal/privacy-policy?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://adobe.com/blog/post-102",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://login.wallet-security-recovery.biz/wellsfargo/billing/update-credit-card?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "https://weather.com/weather/today/l/USNY0996:1:US",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.nvidia.com/contact?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.zoom.us/terms-of-service?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.oracle.com/community/forum?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.shopify.com/security/disclosure?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.shopify.com/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.zoom.us/guide/installation",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.debian.org/api/reference?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.stripe.com/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.zoom.us/blog/post-102?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://account.billing-portal-direct.club/chase/billing/update-credit-card?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://api.golang.org/security/disclosure?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://login.secure-banking-verification.net/downloads/chase_security_update.bat",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://www.airbnb.com/rooms/1029384",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.hubspot.com/security/disclosure?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://secure.amazon-delivery-hold.link/microsoft/signin/index.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.ibm.com/press/releases/2026?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://account.urgent-notice-action.xyz/downloads/paypal_security_update.bat",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "http://banking-auth-portal-secure-service-center.tk/online-banking/us/login.html",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://debian.org/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.zoom.us/community/forum",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://microsoft.amazon-delivery-hold.link/login/checkpoint.aspx?id=7070",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://account.netflix-card-declined.site/paypal/billing/update-credit-card?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://nodejs.org/contact?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://api.canonical.com/about-us?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.kubernetes.io/careers/openings?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://api.linear.app/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.atlassian.com/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.kubernetes.io/security/disclosure?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://185.220.101.5/paypal/signin.php?session=active",
+    "label": 1,
+    "category": "ip_host",
+    "split": "val"
+  },
+  {
+    "url": "http://signin.identity-protection-check.info/google/recover/reset-password?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.notion.so/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://apple.urgent-notice-action.xyz/webscr/cmd-login?id=4292",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://www.hubspot.com/blog/post-102?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.kubernetes.io/products/overview?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.debian.org/downloads/client-mac?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.hubspot.com/api/reference",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://linear.app/guide/installation?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://xn--pypal-4ve.com/signin/webscr",
+    "label": 1,
+    "category": "phishing",
+    "split": "test"
+  },
+  {
+    "url": "https://www.intel.com/about-us?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.figma.com/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://netflix.netflix-card-declined.site/webscr/cmd-login?id=7606",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.nvidia.com/terms-of-service?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.shopify.com/legal/privacy-policy?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.cisco.com/support/faq?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.coursera.org/learn/cyber-security-specialization",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.customer-support-session.org/google/login/checkpoint.aspx?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://www.adobe.com/terms-of-service?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.figma.com/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.ibm.com/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://wellsfargo.customer-support-session.org/security/unlock-account.php?id=1726",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://redhat.com/support/faq?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://www.notion.so/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://apache.org/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://twittter-verify.com/oauth/authorize?token=bad",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "https://support.oracle.com/support/faq?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.python.org/blog/post-102",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.docker.com/blog/post-102?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.nodejs.org/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.nodejs.org/security/disclosure",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://docs.mozilla.org/products/overview?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.cisco.com/guide/installation?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://linear.app/terms-of-service",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.amd.com/blog/post-102",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.shopify.com/products/overview",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.oracle.com/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://paypal.com.account-verification-service.net/login.php?cmd=verify",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ietf.org/terms-of-service?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://google.paypal-resolution-center.vip/security/unlock-account.php?id=5949",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://adobe.com/downloads/client-mac?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://micros0ft.com/en-us/security/renew-license",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "val"
+  },
+  {
+    "url": "http://www.ibm.com/community/forum?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.notion.so/terms-of-service?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://atlassian.com/community/forum",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://178.128.240.91/portal/chase/verify-ssn.php",
+    "label": 1,
+    "category": "ip_host",
+    "split": "train"
+  },
+  {
+    "url": "https://www.canva.com/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://support.docker.com/products/overview?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.canva.com/api/reference?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://support.salesforce.com/downloads/client-mac?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.oracle.com/press/releases/2026?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.ubuntu.com/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://www.atlassian.com/status/uptime?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://verify.account-update-notice.com/downloads/wellsfargo_security_update.scr",
+    "label": 1,
+    "category": "malware",
+    "split": "test"
+  },
+  {
+    "url": "https://www.nvidia.com/pricing/enterprise?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.cisco.com/blog/post-102?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.kubernetes.io/downloads/client-mac",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.zoom.us/careers/openings?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://developer.apple.com/documentation/swiftui",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.cisco.com/security/disclosure?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.notion.so/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.ietf.org/pricing/enterprise?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "http://chase.appleid-resolve-locked.cc/kyc/upload-id-document?id=5496",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.ibm.com/guide/installation?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.stripe.com/careers/openings?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.python.org/guide/installation?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.stripe.com/blog/post-102",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://apple.appleid-resolve-locked.cc/security/unlock-account.php?id=9501",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.rust-lang.org/careers/openings?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.golang.org/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.canonical.com/community/forum?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.redhat.com/legal/privacy-policy?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.canva.com/products/overview?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://api.linear.app/contact?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://secure.chase.com/web/auth/#/logon/logon/chaseonline",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.canonical.com/docs/v2/getting-started",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://zoom.us/docs/v2/getting-started",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://mozilla.org/legal/privacy-policy?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://verify.appleid-resolve-locked.cc/downloads/apple_security_update.scr",
+    "label": 1,
+    "category": "malware",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.ietf.org/security/disclosure?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://support.adobe.com/products/overview",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.intel.com/legal/privacy-policy?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.hubspot.com/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.apache.org/blog/post-102?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ubuntu.com/support/faq?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.atlassian.com/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.debian.org/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://secure.wallet-security-recovery.biz/downloads/paypal_security_update.exe",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://www.mozilla.org/support/faq?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.hubspot.com/guide/installation?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.linear.app/blog/post-102?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.adobe.com/pricing/enterprise?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://free-crypto-miner-bot.github-mirror.biz/crypto_booster.bat",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://www.paypal.com/us/home",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://irs-tax-refund-claim-portal.gov-refunds.online/file-tax/ssn-verify.php",
+    "label": 1,
+    "category": "scam",
+    "split": "test"
+  },
+  {
+    "url": "https://api.canva.com/pricing/enterprise",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://api.intel.com/blog/post-102",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://api.debian.org/community/forum?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.python.org/press/releases/2026?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://owasp.org/www-project-top-ten/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ibm.com/legal/privacy-policy?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://golang.org/guide/installation?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ibm.com/api/reference?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.mitre.org/news-insights/insights-icon",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.canonical.com/blog/post-102?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.nvidia.com/security/disclosure?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.stripe.com/support/faq?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://duckduckgo.com/?q=ai+threatguard",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.canva.com/blog/post-102?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.notion.so/contact?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://netf1ix-verify.com/login?next=stream",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "val"
+  },
+  {
+    "url": "https://support.intel.com/status/uptime?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.apache.org/careers/openings?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.apache.org/terms-of-service?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.golang.org/docs/v2/getting-started?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://oracle.com/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://support.canonical.com/guide/installation?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.apple.com/iphone-16-pro/specs/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://netflix-billing-alert.update-payment-info.cc/your-account",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://ietf.org/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://support.apache.org/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.notion.so/press/releases/2026?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.golang.org/press/releases/2026?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.stripe.com/status/uptime?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://bleepingcomputer.com/news/security/",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://support.nvidia.com/status/uptime?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.nvidia.com/legal/privacy-policy?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://api.redhat.com/security/disclosure?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://arstechnica.com/information-technology/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://chase.customer-support-session.org/billing/update-credit-card?id=2698",
+    "label": 1,
+    "category": "phishing",
+    "split": "test"
+  },
+  {
+    "url": "https://api.cisco.com/pricing/enterprise?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.adobe.com/api/reference?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://microsoft.paypal-resolution-center.vip/kyc/upload-id-document?id=2195",
+    "label": 1,
+    "category": "phishing",
+    "split": "test"
+  },
+  {
+    "url": "https://hubspot.com/support/faq?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ietf.org/community/forum?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://hubspot.com/contact?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://support.canonical.com/pricing/enterprise",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://intel.com/guide/installation?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.amd.com/press/releases/2026?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://apache.org/community/forum?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.zoom.us/pricing/enterprise?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.nodejs.org/legal/privacy-policy?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://www.linear.app/community/forum?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.shopify.com/careers/openings?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://45.145.185.9/download/invoice_scan_october.exe",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://web.mit.edu/research/",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.canva.com/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.salesforce.com/products/overview?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.linear.app/products/overview?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.python.org/products/overview",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.kubernetes.io/community/forum?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://canonical.com/careers/openings?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://wellsfargo.customer-support-session.club/login/portal",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://support.atlassian.com/contact?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.canva.com/contact?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://docs.hubspot.com/docs/v2/getting-started?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://support.ietf.org/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.linear.app/status/uptime",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://login.wallet-security-recovery.biz/wellsfargo/webscr/cmd-login?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.figma.com/downloads/client-mac?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.debian.org/pricing/enterprise?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "http://login.secure-banking-verification.net/downloads/netflix_security_update.exe",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://support.canva.com/support/faq?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://canva.com/press/releases/2026?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://nvidia.com/api/reference?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.canva.com/security/disclosure?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://portal.netflix-card-declined.site/wellsfargo/login/checkpoint.aspx?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.hubspot.com/products/overview?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.cisco.com/community/forum?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.intel.com/api/reference?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.apache.org/guide/installation?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://urgent-security-patch.it-helpdesk-urgent.link/patch-KB91823.msi",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://zoom.us/press/releases/2026?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://docker.com/contact?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://canonical.com/press/releases/2026?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.linear.app/legal/privacy-policy?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://wellsfargo.urgent-notice-action.xyz/recover/reset-password?id=3852",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://www.mozilla.org/terms-of-service?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://ibm.com/pricing/enterprise?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://account.identity-protection-check.info/google/security/unlock-account.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "https://api.kubernetes.io/terms-of-service?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.redhat.com/terms-of-service?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.apache.org/products/overview?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.notion.so/api/reference?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.ietf.org/products/overview?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.amd.com/docs/v2/getting-started",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://signin.paypal-resolution-center.vip/wellsfargo/webscr/cmd-login?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.salesforce.com/contact?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://slack.com/help/articles/2026-getting-started",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://apache.org/support/faq?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://secure-login-gateway.com/auth?redirect=https%3A%2F%2Fpaypal.com&token=secret@@login_user",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ubuntu.com/blog/post-102?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.golang.org/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://docs.amd.com/about-us?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://golang.org/community/forum?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://api.salesforce.com/guide/installation?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://rust-lang.org/blog/post-102?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.figma.com/press/releases/2026?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.nodejs.org/api/reference?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://gitlab.com/gitlab-org/gitlab/-/issues",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.intel.com/docs/v2/getting-started?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://verify.login-security-gateway.top/chase/recover/reset-password?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://chase-online-banking.secure-logon-alerts.biz/auth/verify.aspx",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://www.cisco.com/legal/privacy-policy?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://salesforce.com/press/releases/2026?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://docs.kubernetes.io/press/releases/2026?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://netflix.account-update-notice.com/recover/reset-password?id=8277",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.billing-portal-direct.club/downloads/wellsfargo_security_update.scr",
+    "label": 1,
+    "category": "malware",
+    "split": "test"
+  },
+  {
+    "url": "https://redhat.com/api/reference?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.ibm.com/about-us?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.apache.org/press/releases/2026?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://apple.login-security-gateway.top/auth/verify-identity.html?id=7001",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://wired.com/category/security/",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.nvidia.com/careers/openings",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://coinbase-pro.asset-recovery-center.wang/signin/step2",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "http://steampowered.community-trade-gift.click/profiles/76561198",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "http://verify.billing-portal-direct.club/wellsfargo/signin/index.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://zoom.us/security/disclosure",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://portal.paypal-resolution-center.vip/microsoft/billing/update-credit-card?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "val"
+  },
+  {
+    "url": "http://91.240.118.23:8888/admin/login.php",
+    "label": 1,
+    "category": "ip_host",
+    "split": "train"
+  },
+  {
+    "url": "https://www.reuters.com/technology/",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://verify.secure-banking-verification.net/paypal/billing/update-credit-card?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://figma.com/api/reference?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://goog1e.com/support/account/recover",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "https://www.golang.org/downloads/client-mac",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://api.adobe.com/legal/privacy-policy",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.notion.so/security/disclosure?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.kubernetes.io/blog/post-102?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://github.com/torvalds/linux",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://apache.org/legal/privacy-policy",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "http://signin.appleid-resolve-locked.cc/netflix/signin/index.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.ietf.org/press/releases/2026?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://api.debian.org/docs/v2/getting-started?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.redhat.com/downloads/client-mac?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://microsoft.amazon-delivery-hold.link/billing/update-credit-card?id=3616",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://ubuntu.com/api/reference?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.linear.app/about-us",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://instagrann-verify-badge.com/accounts/confirm",
+    "label": 1,
+    "category": "typosquatting",
+    "split": "train"
+  },
+  {
+    "url": "https://api.canva.com/status/uptime?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://portal.account-update-notice.com/apple/signin/index.php?urgent=1",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.python.org/terms-of-service",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://api.oracle.com/products/overview?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.notion.so/blog/post-102?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://online-account-recovery-centre.info/step1/verify.php?user=admin&cmd=reset_password&urgent=true",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://notion.so/careers/openings?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "http://api.salesforce.com/pricing/enterprise",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.ubuntu.com/status/uptime?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "http://bank-statement-archive.file-storage-direct.top/statement_q3.pdf.exe",
+    "label": 1,
+    "category": "malware",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.salesforce.com/security/disclosure?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test"
+  },
+  {
+    "url": "https://www.mozilla.org/docs/v2/getting-started?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.redhat.com/about-us?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://docs.apache.org/api/reference?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.notion.so/downloads/client-mac?page=1&size=20",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://salesforce.com/about-us?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://attack.mitre.org/techniques/T1566/",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://www.cam.ac.uk/research",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.nature.com/articles/d41586-023-01000-0",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.debian.org/guide/installation?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://www.golang.org/blog/post-102?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.ubuntu.com/terms-of-service",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://xn--appl-4qa.com/my-icloud/find-device",
+    "label": 1,
+    "category": "phishing",
+    "split": "train"
+  },
+  {
+    "url": "https://intel.com/security/disclosure?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://support.salesforce.com/terms-of-service",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://www.docker.com/status/uptime?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://ietf.org/legal/privacy-policy?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "test_unseen_domain"
+  },
+  {
+    "url": "https://docs.linear.app/pricing/enterprise?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.kubernetes.io/docs/v2/getting-started?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "val"
+  },
+  {
+    "url": "https://python.org/careers/openings?utm_source=docs",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://api.stripe.com/community/forum?lang=en",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  },
+  {
+    "url": "https://atlassian.com/careers/openings?ref=footer",
+    "label": 0,
+    "category": "benign",
+    "split": "train"
+  }
+]

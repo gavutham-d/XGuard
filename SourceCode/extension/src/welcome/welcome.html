@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to XGuard</title>
+  <link rel="stylesheet" href="welcome.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="welcome-container">
+    <header class="welcome-header">
+      <div class="shield-badge-lg">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2L3 6V12C3 17.5 7 21.5 12 22C17 21.5 21 17.5 21 12V6L12 2Z" fill="url(#cyanGradLg)" stroke="#00F2FE" stroke-width="1.8"/>
+          <path d="M9 12L11 14L15 10" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs>
+            <linearGradient id="cyanGradLg" x1="3" y1="2" x2="21" y2="22" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#0284C7"/>
+              <stop offset="1" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <h1 class="welcome-title">XGuard Installed Successfully</h1>
+      <p class="welcome-subtitle">Real-Time Link Inspection, Safe Navigation Interstitial, and Cybersecurity Intelligence.</p>
+    </header>
+
+    <!-- Feature Pillars -->
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🛡️</div>
+        <h3>Pre-Click Interception</h3>
+        <p>Links are scanned in milliseconds before navigation happens, stopping malicious payloads before they load.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🧠</div>
+        <h3>Multi-Layer AI Engine</h3>
+        <p>Combines machine learning, brand edit-distance, homograph detection, and SSRF-safe redirect inspection.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">⚠️</div>
+        <h3>Explainable Warnings</h3>
+        <p>When threats are detected, you receive full technical explainability and a "Go Back to Safety" option.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🤖</div>
+        <h3>XGuard Assistant</h3>
+        <p>An AI cybersecurity chatbot embedded directly in the persistent sidebar to answer any security question.</p>
+      </div>
+    </div>
+
+    <!-- Interactive Link Interception Demo -->
+    <section class="demo-section">
+      <h2 class="demo-heading">Interactive Protection Playground</h2>
+      <p class="demo-subtext">Click the test links below to observe how XGuard intercepts and protects your browsing.</p>
+
+      <div class="demo-links-list">
+        <!-- Safe Link -->
+        <div class="demo-link-row">
+          <div class="demo-link-info">
+            <span class="badge badge-low">SAFE LINK</span>
+            <div class="demo-link-name">Legitimate Tech Documentation</div>
+            <a href="https://www.google.com/search?q=cybersecurity" class="demo-anchor">
+              https://www.google.com/search?q=cybersecurity
+            </a>
+          </div>
+          <span class="demo-hint">Result: Brief green verification &rarr; Seamless navigation</span>
+        </div>
+
+        <!-- Phishing Link -->
+        <div class="demo-link-row danger-row">
+          <div class="demo-link-info">
+            <span class="badge badge-critical">CONTROLLED PHISHING TEST</span>
+            <div class="demo-link-name">Deceptive Subdomain Brand Spoofing</div>
+            <a href="http://paypal.com.account-verification-service.net/login.php?urgent=1" class="demo-anchor">
+              http://paypal.com.account-verification-service.net/login.php?urgent=1
+            </a>
+          </div>
+          <span class="demo-hint">Result: Blocked navigation &rarr; Warning Interstitial triggered</span>
+        </div>
+
+        <!-- Typosquatting Link -->
+        <div class="demo-link-row danger-row">
+          <div class="demo-link-info">
+            <span class="badge badge-high">TYPOSQUATTING TEST</span>
+            <div class="demo-link-name">Visual Character Substitution (paypa1)</div>
+            <a href="http://www.paypa1.com/cgi-bin/webscr?cmd=_login" class="demo-anchor">
+              http://www.paypa1.com/cgi-bin/webscr?cmd=_login
+            </a>
+          </div>
+          <span class="demo-hint">Result: Blocked navigation &rarr; High Risk Warning</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Open Sidebar Guide -->
+    <div class="guide-banner">
+      <div class="guide-content">
+        <h3>How to Open the XGuard Sidebar Dashboard</h3>
+        <p>Click the <strong>XGuard shield icon</strong> in your Chrome toolbar or right-click any page and select <em>"Open XGuard Security Dashboard"</em>.</p>
+      </div>
+      <button class="btn btn-primary" id="btnLaunchSidebar">Launch Sidebar Now</button>
+    </div>
+  </div>
+
+  <script src="welcome.js"></script>
+</body>
+</html>

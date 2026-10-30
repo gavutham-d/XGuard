@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XGuard Security Dashboard</title>
+  <link rel="stylesheet" href="sidepanel.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+  <!-- Top App Navigation Bar -->
+  <header class="app-header">
+    <div class="header-brand">
+      <div class="logo-badge">
+        <svg class="logo-shield" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2L3 6V12C3 17.5 7 21.5 12 22C17 21.5 21 17.5 21 12V6L12 2Z" fill="url(#cyanGrad)" stroke="#00F2FE" stroke-width="1.5"/>
+          <path d="M9 12L11 14L15 10" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs>
+            <linearGradient id="cyanGrad" x1="3" y1="2" x2="21" y2="22" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#0284C7"/>
+              <stop offset="1" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div>
+        <h1 class="brand-title">XGuard</h1>
+        <span class="brand-sub">Real-Time Protection Engine</span>
+      </div>
+    </div>
+
+    <div class="header-controls">
+      <div class="status-indicator-pill online" id="backendHealthBadge" title="Backend Status">
+        <span class="dot"></span>
+        <span class="status-lbl" id="backendHealthLabel">Engine Online</span>
+      </div>
+      <button class="icon-btn" id="themeToggleBtn" title="Toggle Theme">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="nav-tabs">
+    <button class="nav-tab active" data-tab="overview">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      Overview
+    </button>
+    <button class="nav-tab" data-tab="current">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      Active Tab
+    </button>
+    <button class="nav-tab" data-tab="assistant">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      Assistant
+    </button>
+    <button class="nav-tab" data-tab="history">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      History
+    </button>
+    <button class="nav-tab" data-tab="analytics">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+      Analytics
+    </button>
+    <button class="nav-tab" data-tab="qr">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM17 17h4v4h-4z"/></svg>
+      QR Shield
+    </button>
+    <button class="nav-tab" data-tab="settings">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      Settings
+    </button>
+  </nav>
+
+  <!-- TAB PANELS -->
+  <main class="tab-content-area">
+
+    <!-- TAB 1: OVERVIEW -->
+    <section class="tab-panel active" id="panel-overview">
+      <!-- Shield Banner -->
+      <div class="hero-shield-card">
+        <div class="hero-shield-left">
+          <div class="shield-core-glow">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2L3 6V12C3 17.5 7 21.5 12 22C17 21.5 21 17.5 21 12V6L12 2Z" stroke="#00F2FE" stroke-width="2"/>
+              <path d="M9 12L11 14L15 10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="shield-hero-title">Real-Time Protection Active</h2>
+            <p class="shield-hero-sub">Interception & ML Classification Armed</p>
+          </div>
+        </div>
+        <div class="mode-pill-select" id="overviewModeBadge">Balanced Mode</div>
+      </div>
+
+      <!-- KPI Grid -->
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <span class="kpi-label">TOTAL SCANS</span>
+          <span class="kpi-value" id="kpiTotalScans">0</span>
+          <span class="kpi-foot">Evaluated links</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">LOW RISK</span>
+          <span class="kpi-value safe" id="kpiSafeLinks">0</span>
+          <span class="kpi-foot">Classified low risk</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">SUSPICIOUS</span>
+          <span class="kpi-value warning" id="kpiSuspicious">0</span>
+          <span class="kpi-foot">Caution links</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">RISKY / BLOCKED</span>
+          <span class="kpi-value danger" id="kpiRisky">0</span>
+          <span class="kpi-foot">Warnings & blocks</span>
+        </div>
+      </div>
+
+      <!-- Quick Manual Scan Bar -->
+      <div class="section-block">
+        <h3 class="block-title">Instant URL Scanner</h3>
+        <div class="manual-scan-bar">
+          <input type="text" class="input-text" id="manualScanInput" placeholder="Paste any destination URL to inspect..." />
+          <button class="btn btn-primary btn-sm" id="btnManualScan">Scan</button>
+        </div>
+        <div class="manual-scan-result hidden" id="manualScanResult"></div>
+      </div>
+
+      <!-- Recent Scans Feed -->
+      <div class="section-block">
+        <div class="block-header-flex">
+          <h3 class="block-title">Recent Activity Feed</h3>
+          <button class="btn-text-link" id="btnViewAllHistory">View Full History &rarr;</button>
+        </div>
+        <div class="activity-feed" id="overviewActivityFeed">
+          <div class="empty-feed">No link evaluations yet. Browse the web to see real-time protection in action.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: CURRENT WEBSITE -->
+    <section class="tab-panel" id="panel-current">
+      <div class="current-site-header">
+        <div class="current-site-badge-row">
+          <span class="badge" id="currentSiteLevelBadge">UNKNOWN</span>
+          <span class="current-domain-title" id="currentSiteDomain">example.com</span>
+        </div>
+        <div class="current-url-display" id="currentSiteFullUrl">https://example.com/</div>
+      </div>
+
+      <div class="current-score-card">
+        <div class="score-circle-wrapper">
+          <span class="score-number" id="currentSiteScore">--</span>
+          <span class="score-max">/100</span>
+        </div>
+        <div class="score-meta">
+          <h4 id="currentSiteVerdictTitle">Evaluating Active Tab</h4>
+          <p id="currentSiteVerdictDesc">Scanning active webpage signals, domain reputation, and structural tokens.</p>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <h3 class="block-title">Observed Signals & Telemetry</h3>
+        <ul class="evidence-list" id="currentSiteEvidenceList">
+          <li class="evidence-loading">Inspecting active tab...</li>
+        </ul>
+      </div>
+
+      <div class="current-site-actions">
+        <button class="btn btn-primary" id="btnRescanCurrentSite">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          Re-Scan Active Webpage
+        </button>
+        <button class="btn btn-secondary" id="btnAskAssistantAboutCurrent">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Ask Assistant About This Site
+        </button>
+      </div>
+    </section>
+
+    <!-- TAB 3: XGUARD ASSISTANT -->
+    <section class="tab-panel" id="panel-assistant">
+      <div class="assistant-container">
+        <!-- Chat header -->
+        <div class="chat-header">
+          <div class="chat-avatar">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2L3 6V12C3 17.5 7 21.5 12 22C17 21.5 21 17.5 21 12V6L12 2Z" fill="#0284C7"/>
+              <circle cx="12" cy="12" r="3" fill="#00F2FE"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="chat-bot-name">XGuard Assistant</h3>
+            <span class="chat-bot-status" id="chatEngineStatus">Grounded in Active Telemetry</span>
+          </div>
+          <button class="icon-btn-sm" id="btnClearChat" title="Clear Conversation">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+          </button>
+        </div>
+
+        <!-- Chat Stream -->
+        <div class="chat-messages" id="chatMessages">
+          <div class="chat-bubble bot">
+            <p>Hello! I am your AI cybersecurity assistant. Ask me anything about link risks, typosquatting, safe logins, or why a destination was flagged.</p>
+          </div>
+        </div>
+
+        <!-- Suggested Prompt Chips -->
+        <div class="prompt-chips-row" id="promptChips">
+          <button class="chip" data-prompt="Why was this link flagged?">Why was this link flagged?</button>
+          <button class="chip" data-prompt="Is this website safe to log in to?">Is this site safe to log in to?</button>
+          <button class="chip" data-prompt="What is typosquatting?">What is typosquatting?</button>
+          <button class="chip" data-prompt="What should I do if I clicked a risky link?">Remediation steps</button>
+        </div>
+
+        <!-- Input Bar -->
+        <div class="chat-input-bar">
+          <input type="text" class="chat-input" id="chatInput" placeholder="Ask XGuard Assistant..." />
+          <button class="btn-send" id="btnSendChat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: SCAN HISTORY -->
+    <section class="tab-panel" id="panel-history">
+      <!-- Search & Filters -->
+      <div class="history-controls">
+        <input type="text" class="input-text" id="historySearchInput" placeholder="Search history by URL or domain..." />
+        
+        <div class="filter-row">
+          <select class="select-input" id="historyRiskFilter">
+            <option value="all">All Risk Levels</option>
+            <option value="critical">Critical Only</option>
+            <option value="high">High Only</option>
+            <option value="medium">Medium Only</option>
+            <option value="low">Low Risk</option>
+          </select>
+
+          <div class="history-actions-right">
+            <button class="btn btn-sm btn-secondary" id="btnExportJson" title="Export JSON">JSON</button>
+            <button class="btn btn-sm btn-secondary" id="btnExportCsv" title="Export CSV">CSV</button>
+            <button class="btn btn-sm btn-danger-outline" id="btnClearHistory" title="Clear All History">Clear</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- History Table / Cards -->
+      <div class="history-list" id="historyList">
+        <div class="empty-state">No recorded scan events match your filters.</div>
+      </div>
+    </section>
+
+    <!-- TAB 5: ANALYTICS -->
+    <section class="tab-panel" id="panel-analytics">
+      <div class="section-block">
+        <h3 class="block-title">Scans Over Time</h3>
+        <div class="chart-container" id="timelineChartContainer">
+          <!-- Canvas / SVG Timeline chart -->
+          <svg class="chart-svg" id="timelineChartSvg" viewBox="0 0 340 140"></svg>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <h3 class="block-title">Threat Category Distribution</h3>
+        <div class="category-bars-list" id="categoryBarsList">
+          <div class="cat-bar-item">
+            <div class="cat-bar-lbl">Phishing & Brand Spoofing</div>
+            <div class="cat-bar-track"><div class="cat-bar-fill" style="width: 65%;"></div></div>
+            <span class="cat-bar-num">65%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <h3 class="block-title">Performance Telemetry</h3>
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span class="kpi-label">AVG SCAN LATENCY</span>
+            <span class="kpi-value" id="kpiAvgLatency">0.03 ms</span>
+            <span class="kpi-foot">Fast ML inference</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-label">USER OVERRIDES</span>
+            <span class="kpi-value warning" id="kpiUserOverrides">0</span>
+            <span class="kpi-foot">Proceeded anyway</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 6: QR CODE PHISHING SHIELD -->
+    <section class="tab-panel" id="panel-qr">
+      <div class="section-block">
+        <h3 class="block-title">QR Code Link Extractor & Shield</h3>
+        <p class="section-subtext">Decode and security-scan QR code destinations from images before navigating on your device.</p>
+
+        <div class="qr-dropzone" id="qrDropZone">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#00F2FE" stroke-width="1.5">
+            <path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 14h2v2h-2zM14 18h2v2h-2zM18 18h2v2h-2z"/>
+          </svg>
+          <span class="qr-drop-text">Drag & drop QR image, click to browse, or paste clipboard</span>
+          <input type="file" id="qrFileInput" accept="image/*" class="hidden" />
+        </div>
+
+        <div class="qr-result-box hidden" id="qrResultBox">
+          <span class="detail-lbl">Decoded Destination:</span>
+          <div class="qr-decoded-url" id="qrDecodedUrl">--</div>
+          <button class="btn btn-primary btn-sm" id="btnScanDecodedQr">Inspect Extracted Link Safety</button>
+        </div>
+
+        <div class="qr-scan-verdict hidden" id="qrScanVerdict"></div>
+      </div>
+    </section>
+
+    <!-- TAB 7: SETTINGS & HEALTH -->
+    <section class="tab-panel" id="panel-settings">
+      <div class="section-block">
+        <h3 class="block-title">Protection Mode</h3>
+        
+        <div class="radio-card-group">
+          <label class="radio-card">
+            <input type="radio" name="protectionMode" value="balanced" checked />
+            <div class="radio-card-content">
+              <strong>Balanced (Recommended)</strong>
+              <span>Warns on high-confidence threats and suspicious links. Minimal disruption.</span>
+            </div>
+          </label>
+
+          <label class="radio-card">
+            <input type="radio" name="protectionMode" value="strict" />
+            <div class="radio-card-content">
+              <strong>Strict Security</strong>
+              <span>Requires explicit confirmation for unknown or unverified destination domains.</span>
+            </div>
+          </label>
+
+          <label class="radio-card">
+            <input type="radio" name="protectionMode" value="learning" />
+            <div class="radio-card-content">
+              <strong>Learning / Educational</strong>
+              <span>Explains risk decisions transparently without aggressive blocking.</span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <h3 class="block-title">Privacy & Scanning Controls</h3>
+
+        <div class="setting-toggle-row">
+          <div>
+            <strong>Privacy Mode</strong>
+            <p class="setting-desc">Disables external threat lookups and keeps all telemetry strictly local.</p>
+          </div>
+          <input type="checkbox" id="settingPrivacyMode" />
+        </div>
+
+        <div class="setting-slider-row">
+          <div>
+            <strong>Scan Timeout Threshold</strong>
+            <p class="setting-desc">Maximum wait time for link verification: <span id="lblTimeoutVal">3.0s</span></p>
+          </div>
+          <input type="range" id="settingTimeoutSlider" min="1000" max="6000" step="500" value="3000" />
+        </div>
+      </div>
+
+      <div class="section-block">
+        <h3 class="block-title">System Health & Model Status</h3>
+        <div class="health-status-box" id="healthStatusBox">
+          <div class="health-row">
+            <span>Backend Server:</span>
+            <strong class="health-ok" id="healthBackendVal">Connected (127.0.0.1:8000)</strong>
+          </div>
+          <div class="health-row">
+            <span>ML Model Engine:</span>
+            <strong class="health-ok" id="healthModelVal">XGuard v1.0.0 (Calibrated)</strong>
+          </div>
+          <div class="health-row">
+            <span>Threat Intelligence:</span>
+            <strong class="health-ok" id="healthIntelVal">URLhaus & Curated IOC Active</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <h3 class="block-title">Report False Positive / Missed Threat</h3>
+        <div class="feedback-form">
+          <input type="text" class="input-text" id="feedbackUrlInput" placeholder="URL to report..." />
+          <select class="select-input" id="feedbackTypeSelect">
+            <option value="false_positive">False Positive (Safe link flagged as risky)</option>
+            <option value="false_negative">False Negative (Malicious link missed)</option>
+          </select>
+          <textarea class="textarea-input" id="feedbackComment" placeholder="Optional context or comments..."></textarea>
+          <label class="checkbox-label">
+            <input type="checkbox" id="feedbackConsentCheck" />
+            <span>I consent to submit this redacted URL report.</span>
+          </label>
+          <button class="btn btn-secondary btn-sm" id="btnSubmitFeedback">Submit Feedback Report</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>
