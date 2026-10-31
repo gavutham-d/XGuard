@@ -42,37 +42,41 @@
     </div>
   </header>
 
-  <!-- Navigation Tabs -->
-  <nav class="nav-tabs">
-    <button class="nav-tab active" data-tab="overview">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-      Overview
-    </button>
-    <button class="nav-tab" data-tab="current">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-      Active Tab
-    </button>
-    <button class="nav-tab" data-tab="assistant">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-      Assistant
-    </button>
-    <button class="nav-tab" data-tab="history">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-      History
-    </button>
-    <button class="nav-tab" data-tab="analytics">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
-      Analytics
-    </button>
-    <button class="nav-tab" data-tab="qr">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM17 17h4v4h-4z"/></svg>
-      QR Shield
-    </button>
-    <button class="nav-tab" data-tab="settings">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-      Settings
-    </button>
-  </nav>
+  <!-- Navigation Tabs with horizontal scroll arrows -->
+  <div class="nav-tabs-wrapper">
+    <button class="nav-scroll-btn hidden" id="navScrollLeft" aria-label="Scroll tabs left">&#8249;</button>
+    <nav class="nav-tabs" id="navTabsScroll">
+      <button class="nav-tab active" data-tab="overview">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        Overview
+      </button>
+      <button class="nav-tab" data-tab="current">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        Active Tab
+      </button>
+      <button class="nav-tab" data-tab="assistant">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        Assistant
+      </button>
+      <button class="nav-tab" data-tab="history">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        History
+      </button>
+      <button class="nav-tab" data-tab="analytics">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+        Analytics
+      </button>
+      <button class="nav-tab" data-tab="qr">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM17 17h4v4h-4z"/></svg>
+        QR Shield
+      </button>
+      <button class="nav-tab" data-tab="settings">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        Settings
+      </button>
+    </nav>
+    <button class="nav-scroll-btn" id="navScrollRight" aria-label="Scroll tabs right">&#8250;</button>
+  </div>
 
   <!-- TAB PANELS -->
   <main class="tab-content-area">
@@ -258,40 +262,87 @@
 
     <!-- TAB 5: ANALYTICS -->
     <section class="tab-panel" id="panel-analytics">
-      <div class="section-block">
-        <h3 class="block-title">Scans Over Time</h3>
-        <div class="chart-container" id="timelineChartContainer">
-          <!-- Canvas / SVG Timeline chart -->
-          <svg class="chart-svg" id="timelineChartSvg" viewBox="0 0 340 140"></svg>
+
+      <!-- Period filter + refresh -->
+      <div class="analytics-filter-bar">
+        <div class="analytics-period-pills" id="analyticsPeriodPills">
+          <button class="period-pill" data-period="24h">24H</button>
+          <button class="period-pill active" data-period="7d">7D</button>
+          <button class="period-pill" data-period="30d">30D</button>
+          <button class="period-pill" data-period="all">All</button>
+        </div>
+        <button class="analytics-refresh-btn" id="analyticsRefreshBtn" title="Refresh">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          Refresh
+        </button>
+      </div>
+
+      <!-- 4 compact summary cards -->
+      <div class="analytics-summary-grid">
+        <div class="analytics-metric-card">
+          <span class="amc-label">TOTAL SCANS</span>
+          <span class="amc-value" id="amcTotalScansVal">&#x2014;</span>
+          <span class="amc-delta" id="amcTotalScansDelta"></span>
+        </div>
+        <div class="analytics-metric-card">
+          <span class="amc-label">THREATS</span>
+          <span class="amc-value danger" id="amcThreatsVal">&#x2014;</span>
+          <span class="amc-delta" id="amcThreatsDelta"></span>
+        </div>
+        <div class="analytics-metric-card">
+          <span class="amc-label">SUSPICIOUS</span>
+          <span class="amc-value warning" id="amcSuspiciousVal">&#x2014;</span>
+          <span class="amc-delta" id="amcSuspiciousDelta"></span>
+        </div>
+        <div class="analytics-metric-card">
+          <span class="amc-label">BENIGN</span>
+          <span class="amc-value safe" id="amcBenignVal">&#x2014;</span>
         </div>
       </div>
 
-      <div class="section-block">
-        <h3 class="block-title">Threat Category Distribution</h3>
-        <div class="category-bars-list" id="categoryBarsList">
-          <div class="cat-bar-item">
-            <div class="cat-bar-lbl">Phishing & Brand Spoofing</div>
-            <div class="cat-bar-track"><div class="cat-bar-fill" style="width: 65%;"></div></div>
-            <span class="cat-bar-num">65%</span>
+      <!-- Scans Over Time -->
+      <div class="section-block analytics-section">
+        <div class="analytics-section-header">
+          <h3 class="block-title">Scans Over Time</h3>
+          <span class="analytics-section-meta" id="timelineMeta"></span>
+        </div>
+        <div class="timeline-chart-wrap" id="timelineChartWrap">
+          <div class="analytics-loading" id="timelineLoading">
+            <div class="analytics-spinner"></div>
+            <span>Loading...</span>
           </div>
+          <div class="timeline-empty hidden" id="timelineEmpty">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            <span>No scan data for this period</span>
+          </div>
+          <div class="timeline-canvas-area hidden" id="timelineCanvasArea">
+            <canvas id="timelineChart" height="110"></canvas>
+          </div>
+        </div>
+        <div class="timeline-summary-row" id="timelineSummaryRow"></div>
+      </div>
+
+      <!-- Category Distribution (compact bars) -->
+      <div class="section-block analytics-section">
+        <h3 class="block-title">Threat Categories</h3>
+        <div class="analytics-loading" id="donutLoading">
+          <div class="analytics-spinner"></div>
+        </div>
+        <div class="cat-bars-compact hidden" id="catBarsCompact"></div>
+      </div>
+
+      <!-- Compact Telemetry -->
+      <div class="section-block analytics-section">
+        <h3 class="block-title">Performance</h3>
+        <div class="analytics-loading" id="telemetryLoading">
+          <div class="analytics-spinner"></div>
+          <span>Loading telemetry...</span>
+        </div>
+        <div class="telemetry-grid hidden" id="telemetryContent">
+          <!-- filled by JS -->
         </div>
       </div>
 
-      <div class="section-block">
-        <h3 class="block-title">Performance Telemetry</h3>
-        <div class="kpi-grid">
-          <div class="kpi-card">
-            <span class="kpi-label">AVG SCAN LATENCY</span>
-            <span class="kpi-value" id="kpiAvgLatency">0.03 ms</span>
-            <span class="kpi-foot">Fast ML inference</span>
-          </div>
-          <div class="kpi-card">
-            <span class="kpi-label">USER OVERRIDES</span>
-            <span class="kpi-value warning" id="kpiUserOverrides">0</span>
-            <span class="kpi-foot">Proceeded anyway</span>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- TAB 6: QR CODE PHISHING SHIELD -->
@@ -408,6 +459,8 @@
 
   </main>
 
+  <!-- jsQR: pure-JS QR decoder bundled locally (no BarcodeDetector dependency) -->
+  <script src="../shared/jsQR.js"></script>
   <script type="module" src="sidepanel.js"></script>
 </body>
 </html>

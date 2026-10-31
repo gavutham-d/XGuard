@@ -526,3 +526,124 @@ export async function submitFeedback(feedbackData) {
     config.timeoutMs
   );
 }
+
+// ── Analytics API Functions ───────────────────────────────────────────────────
+
+/**
+ * Fetch analytics summary metrics for the given period.
+ */
+export async function getAnalyticsSummary(period = "7d") {
+  try {
+    const config = await getBackendConfig();
+    return await backendRequest(
+      `${config.backendUrl}/api/v1/analytics/summary?period=${period}`,
+      { method: "GET" },
+      config.timeoutMs
+    );
+  } catch (err) {
+    console.error("[XGuard] Analytics summary failed:", err.message);
+    return null;
+  }
+}
+
+/**
+ * Fetch time-series scan data for the given period.
+ */
+export async function getAnalyticsTimeseries(period = "7d") {
+  try {
+    const config = await getBackendConfig();
+    return await backendRequest(
+      `${config.backendUrl}/api/v1/analytics/timeseries?period=${period}`,
+      { method: "GET" },
+      config.timeoutMs
+    );
+  } catch (err) {
+    console.error("[XGuard] Analytics timeseries failed:", err.message);
+    return null;
+  }
+}
+
+/**
+ * Fetch threat category distribution for the given period.
+ */
+export async function getAnalyticsCategories(period = "7d") {
+  try {
+    const config = await getBackendConfig();
+    return await backendRequest(
+      `${config.backendUrl}/api/v1/analytics/categories?period=${period}`,
+      { method: "GET" },
+      config.timeoutMs
+    );
+  } catch (err) {
+    console.error("[XGuard] Analytics categories failed:", err.message);
+    return null;
+  }
+}
+
+/**
+ * Fetch performance telemetry metrics for the given period.
+ */
+export async function getAnalyticsTelemetry(period = "7d") {
+  try {
+    const config = await getBackendConfig();
+    return await backendRequest(
+      `${config.backendUrl}/api/v1/analytics/telemetry?period=${period}`,
+      { method: "GET" },
+      config.timeoutMs
+    );
+  } catch (err) {
+    console.error("[XGuard] Analytics telemetry failed:", err.message);
+    return null;
+  }
+}
+
+/**
+ * Fetch threat trends and intelligence insights for the given period.
+ */
+export async function getAnalyticsTrends(period = "7d") {
+  try {
+    const config = await getBackendConfig();
+    return await backendRequest(
+      `${config.backendUrl}/api/v1/analytics/trends?period=${period}`,
+      { method: "GET" },
+      config.timeoutMs
+    );
+  } catch (err) {
+    console.error("[XGuard] Analytics trends failed:", err.message);
+    return null;
+  }
+}
+
+/**
+ * Fetch recent security events.
+ */
+export async function getAnalyticsRecentEvents(limit = 10) {
+  try {
+    const config = await getBackendConfig();
+    return await backendRequest(
+      `${config.backendUrl}/api/v1/analytics/recent-events?limit=${limit}`,
+      { method: "GET" },
+      config.timeoutMs
+    );
+  } catch (err) {
+    console.error("[XGuard] Analytics recent events failed:", err.message);
+    return null;
+  }
+}
+
+/**
+ * Fetch detection effectiveness metrics.
+ */
+export async function getAnalyticsEffectiveness() {
+  try {
+    const config = await getBackendConfig();
+    return await backendRequest(
+      `${config.backendUrl}/api/v1/analytics/effectiveness`,
+      { method: "GET" },
+      config.timeoutMs
+    );
+  } catch (err) {
+    console.error("[XGuard] Analytics effectiveness failed:", err.message);
+    return null;
+  }
+}
