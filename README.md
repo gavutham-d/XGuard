@@ -2,7 +2,7 @@
 
 > **Real-Time AI Link & Phishing Protection for Chrome**
 
-XGuard is a production-grade cybersecurity system that intercepts hyperlinks before navigation, evaluates them through a 5-layer threat detection engine, and stops phishing, typosquatting, malware, and brand impersonation — all in real time.
+XGuard is a production-grade cybersecurity system that intercepts hyperlinks before navigation, evaluates them through a 5-layer threat detection engine, and stops phishing, typosquatting, malware, and brand impersonation — all in real time and secures in offline too.
 
 ---
 
